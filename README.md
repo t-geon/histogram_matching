@@ -1,14 +1,16 @@
 # histogram_matching
 
-- Explanation
+This is the code I wrote through visual studio 2019 on windows.
+
+Explanation
  It transforms the distribution of the pixel values ​​of the input image to match the distribution of the pixel values of the target image.
   
-- mathematical concepts
+mathematical concepts
   Assume that a and b have an arbitrary distribution and that s has a uniform distribution.
   If the cdf of a is T() and the cdf of b is G(), then T(a)=s=G(b).
   We can convert a to s by substituting a for T, and we can convert s to b by mapping s to the inverse of G.
 
-- process
+process
   1. Read the input image file.
   2. Check the probability and cdf of the input image file.
   3. Check the distribution, probability, and cdf of the target image file.
